@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geography Fun</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #0077cc;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            margin: 30px 0;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1.5em;
+            padding: 20px 40px;
+            border: none;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        footer a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Geography Fun</h1>
+    <p>Test your knowledge by drawing country borders from memory. How many can you get right?</p>
+
+    <div class="button-container">
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <footer>
+        <p>Made with ❤️ by <a href="https://www.yourlinkhere.com" target="_blank">Geography Fun</a></p>
+    </footer>
+
+    <script>
+        function startGame() {
+            alert("Game starting soon! Stay tuned.");
+        }
+    </script>
+
+</body>
+</html>
